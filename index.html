@@ -1,348 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Mahir Jain</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="mahir.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="templatemo">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+</head> 
 
-<title>Mahir Jain</title>
-<!--
-Stimulus Template
-http://www.templatemo.com/tm-498-stimulus
--->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/templatemo-style.css">
-<link rel="shortcut icon" href="images/mahir.ico">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="assets/images/small_profile.png" alt="Mahir Jain" />
+            <div class="profile-content float-left">
+                <h1 class="name">Mahir Jain</h1>
+                <h2 class="desc">Student. Data Science Enthusiast. Avid Sports Fan!</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/mahirjain/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/mahirjain25"><i class="fab fa-github-alt"></i></a></li>    
+                </ul> 
+            </div><!--//profile-->
+            <!-- Contact me button
+                <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+            -->   
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>
+                                I am a senior year undergraduate student at National Institute of Technology Karnataka, Surathkal, currently pursuing my B.Tech in Computer 
+                                Science and Engineering.
+                                My technical area of interest and expertise is Data Science. 
+                                In my free time, I like to play or follow a sport (Basketball, Cricket and Formula 1 to name a few), play the drums or read a book!
+                                I aspire to find an amalgamation of my technical and non technical interests where I can create an impact using my skills.
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects of Note</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Auto Segmentation of Sub-Retinal Fluid for Central Serous Retinopathy Pathology - Ongoing</h3>
+                                <p class="summary">
+                                    This is my major project for my Bachelor's degree. We aim to use Capsule Networks to improve the segmentation performance of the prior approaches. 
+                                    We are in the process of developing a new architecture for the same and hope to publish our findings soon. 
+                                </p>
+                            </div><!--//item-->  
+                            
+                            <div class="item">
+                                <h3 class="title">Generative Adversarial Networks (GAN)</h3>
+                                <p class="summary">
+                                    I understood the basic concepts of GANs and implemented a vanilla Softmax GAN for the MNIST dataset and a Triple GAN for the CIFAR-10 dataset.
+                                    Even though the Triple GAN did not perform upto our expectations, this was a huge learning curve in the field of deep learning for me. This project
+                                    was funded by the IEEE NITK Student Chapter, of which I am a member. Code from the repository can be viewed <a href="https://github.com/mahirjain25/Generative-Adversarial-Networks">here</a>.
+                                </p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Custom Object Detection using YOLO with Darknet</h3>
+                                <p class="summary">
+                                    I came up with a detailed tutorial on how one can use YOLO with Darknet for custom datasets. The darknet repository works out of the box
+                                    for some datasets like MS-COCO, but we can tune it to work for a dataset of our own. Due to a lack of clear documentation, I created a
+                                    step by step tutorial <a href="https://github.com/mahirjain25/darknet/blob/master/README.md">here</a>.
+                                </p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">FantasyOne - An F1 fantasy game</h3>
+                                <p class="summary">
+                                    I'm a huge Formula 1 fan, and hence, my friend and I decided to create a web-based fantasy sports application for the sport. This
+                                    was a course project in college, and we learnt how to use NodeJS with express, managed a MySQL database and worked on front end design. I hope
+                                    to work on more such projects where my hobbies can intermix with my technical skills! Here is a <a href="https://github.com/suraj44/FantasyOne">link</a> to the repository. 
+                                </p>
+                            </div><!--//item-->  
 
-</head>
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+                            <p class="summary">
+                                <i>You can always view my GitHub or reach out to me to learn about some of the other projects I have worked on! In this section, I wanted to highlight projects that I find most important.</i>
+                            </p>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Summer Intern - <span class="place"><a href="#">Walmart Labs</a></span> <span class="year">(May 2019 - July 2019)</span></h3>
+                                <p>
+                                    I gained hands on experience using Azure Cloud Services such as Azure Logic Apps, and developed the backend of an application using Azure Functions. I was also entrusted with the responsibility of database
+                                    design for the application. Finally, I dabbled in a bit of React JS and Redux for front-end design of the project. 
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Summer Intern - <span class="place"><a href="#">Impel Labs</a></span> <span class="year">(May 2018 - July 2018)</span></h3>
+                                <p>
+                                    Worked on Handwritten Optical Character Recognition using YOLO One-Shot detection. Developed a <a href="https://github.com/mahirjain25/darknet/blob/master/README.md">tutorial</a> for using an open source tool for the same.
+                                    I also worked on Named Entity Recognition using the Spacy NLP tool. Among the other technologies that I was exposed to during this internship were:
+                                    Flask for serving files, and Docker - ensuring that our code could be executed by the company's clients seamlessly.
+                                </p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Remote Intern - <span class="place"><a href="#">Prof. Sameer Mathur, IIM Lucknow</a></span> <span class="year">(July 2017 - August 2017)</span></h3>
+                                <p>I was introduced to the basic concepts in: R programming using RStudio, Data Analysis and Statistics. I learnt several data visualisation techniques, and
+                                    also analysed several case studies by Harvard Business Review to learn about marketing as well.
+                                </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bangalore, India</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:mahirjain25@gmail.com">mahirjain25@gmail.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Technical Skills</h2>
+                        <div class="content">
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Languages: Python, C, C++, R, Javascript</h3>                          
+                                </div><!--//item-->
 
+                                <div class="item">
+                                    <h3 class="level-title">Data Science (Algorithms) - Keras with Tensorflow, Scikit, Numpy</h3>
+                                </div><!--//item-->
 
-<!-- PRE LOADER -->
+                                <div class="item">
+                                    <h3 class="level-title">Data Science (Tools) - Pandas, Jupyter, Matplotlib, OpenCV, RStudio                         
+                                </div><!--//item-->
 
-<div class="preloader">
-     <div class="spinner">
-          <span class="spinner-rotate"></span>
-     </div>
-</div>
+                                <div class="item">
+                                    <h3 class="level-title">Web Development - Flask, Node JS with Express, React JS, HTML with Bootstrap, Azure Functions                            
+                                </div><!--//item-->
+                                
+                               
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.Tech in Computer Science</h3>
+                                <h4 class="university">National Institute of Technology Karnataka, Surathkal <span class="year">(2016-2020)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Senior Secondary Certification</h3>
+                                <h4 class="university">National Public School, Koramangala <span class="year">(2014-16)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <!--
+                <aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <div id="rss-feeds" class="content">
 
-
-<!-- Navigation Section -->
-
-<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
-     <div class="container">
-
-          <!-- navbar header -->
-          <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-               </button>
-               <a href="#" class="navbar-brand color-white">Mahir Jain</a>
-          </div>
-
-          <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About Me</a></li>
-                    <li><a href="#experience" class="smoothScroll">Experiences</a></li>
-                    <li><a href="#quotes" class="smoothScroll">Projects</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-               </ul>
-          </div>
-
-     </div>
-</div>
-
-
-<!-- Home Section -->
-
-<section id="home" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="home-img"></div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="home-thumb">
-                         <div class="section-title">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.3s">Welcome!</h2>
-                              <h1 class="wow fadeInUp" data-wow-delay="0.6s">I am <strong>Mahir Jain.</strong></h1>
-                              <h2 class="wow fadeInUp" data-wow-delay="0.9s">This is my personal website! I look forward to receiving your feedback :)</h2>
-                              <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Get Started</a>
-                              
-                         </div>
+                        </div>
                     </div>
-               </div>
+                </aside>
+                -->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Honours and Awards</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-award"></i>Winner: Codebattle 2.0, Intern Hackathon at Walmart Labs, Bangalore</li>
+                                <li><i class="fas fa-award"></i>Speaker: AI Day at Treebo, a Data Science Meetup in Bangalore</li>
+                                <li><i class="fas fa-award"></i>School Topper: 97.2% CBSE 2016</li>
+                                <li><i class="fas fa-award"></i>Member: College Basketball Team</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
 
-
-          </div>
-     </div>
-</section>
-
-
-<!-- About Section -->
-
-<section id="about" class="parallax-section">
-     <div class="bg-dark container">
-          <div class="row">
-               <div class="col-md-6 col-sm-12">
-                    <div class="about-thumb">
-                         <div class="bg-darkwow fadeInUp section-title" data-wow-delay="0.4s">
-                              <h1 class="color-white">About Me</h1>
-                         </div>
-                         <div class="wow fadeInUp" data-wow-delay="0.6s">
-                              <h3 class="color-white">I am a Junior Year Undergraduate Student at NITK Surathkal, pursuing my Bachelors in Technology in Computer Science and Engineering.</h3>
-                              <h3 class="color-white">I am a Data Science Enthusiast, and a Sport Fanatic! I love playing as well as following sport, and bringing together the worlds of Sport and Computer Science is my passion.</h3>
-                              <h3 class="color-white">In my free time, you may find me watching a film, reading a book, or playing an outdoor game.</h3>
-                         </div>
-                    </div>
-               </div>
-
-               <div class="col-md-3 col-sm-6">
-                    <div class="background-image about-img"></div>
-               </div>
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="skill-thumb">
-                         <div class="wow fadeInUp section-title color-white" data-wow-delay="0.8s">
-                              <h1><strong>My Skills</strong></h1>
-                              <h3 class="color-white">Programming in: C, C++, Python, R, Javascript</h3>
-                         </div>
-
-                         <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.2s">
-                              <h3><strong>Machine Learning and Deep Learning</strong></h3>
-                              <h3 class="color-white">TensorFlow, scikit-learn, RStudio, NumPy, Pandas, Spacy.</h3>
-                              <h3><strong>Web Development using Django/Flask, NodeJS, ExpressJS</strong></h3>
-                              <h3 class="color-white">MySQL, HTML5, CSS, Bootstrap</h3>
-                         </div>
-
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-
-<!-- Service Section -->
-
-
-
-
-<!-- Experience Section -->
-
-<section id="experience" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="background-image experience-img"></div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="color-white experience-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
-                              <h1>My Experiences</h1>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="0.6s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>  
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">Intern - Impel Labs Pvt. Ltd., May 2018 - July 2018</h2>
-                                   <h4><strong>Handwritten Optical Character Recognition (HOCR)</strong></h4>
-                                   <h4><strong>Entity Recognition using Spacy Library</strong></h4>
-                                   <h4><strong>YOLOv2 Custom Object Detection</strong></h4>
-                              </div>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="0.8s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">Intern (under Prof. Sameer Mathur, IIM Lucknow), July 2017 - August 2017</h3>
-                                   <h4><strong>Remote Internship</strong></h4>
-                                   <h4><strong>Covered Basics of: R, Statistics, Data Analytics</strong></h4>
-                                   <h4><strong>Analysing business case studies from Harvard Business School</strong></h4>
-                                   <h4><strong>Data Visualisation in R</strong></h4>
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-
-<!-- Education Section -->
-
-<section id="education" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="color-white education-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
-                              <h1>My Education</h1>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">Bachelor of Technology, Computer Engineering (2016 May - Present)</h3>
-                                   <h4><strong>National Institute of Technology, Karnataka</strong></h4>
-                                   <h4><strong>Batch of 2020</strong></h4>
-                                   <h4><strong>CGPA : 8.76</strong></h4>
-                                   <h4><strong>Co-Curricular: Executive Member, IEEE NITK Chapter</strong></h4>
-                                   <h4><strong>Extra Curricular: College Basketball Team</strong></h4>
-                              </div>
-                         </div>
-
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                              <div class="media-object media-left">
-                                   <i class="fa fa-laptop"></i>
-                              </div>
-                              <div class="media-body">
-                                   <h3 class="media-heading">Senior Secondary Education,  Graduated: 2016</h3>
-                                   <h4><strong>National Public School(NPS), Koramangala, Bangalore</strong></h4>
-                                   <h4><strong>CBSE Percentage: 97.20%</strong></h4>
-                                   <h4><strong>Activities: House Captain, School Science Coordinator, School Basketball and Cricket Team.</strong></h4>
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="background-image education-img"></div>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-
-<!-- Quotes Section -->
-
-<section id="quotes" class="parallax-section">
-     <div class="overlay"></div>
-     <div class="container">
-          <div class="row">
-               <div class="col-md-offset-1 col-md-10 col-sm-12">
-                    <i class="wow fadeInUp fa fa-star" data-wow-delay="0.6s"></i>
-                    <h2 class="wow fadeInUp" data-wow-delay="0.8s">My Projects</h2>
-                    <h2 class="wow fadeInUp" data-wow-delay="1s">Here are some of my most noteworthy projects. Click on the GitHub Icon to navigate to the repository on GitHub.</h2>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-<section id="service" class="parallax-section">
-     <div class="container">
-          <div class="bg-yellow row">
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
-                         <h3 style="color:black">Custom Object Detection using YOLO</h3>
-                         <p style="color:black">My fork of 'darknet', an open source object detection library, with a guide to carry out custom object detection.</p>
-                         <a href="https://github.com/mahirjain25/darknet"><i class="fa fa-github" style="color:black"></i></a>
-                    </div>
-               </div>
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.2s">
-                         <h3 style="color:black">Generative Adversarial Networks</h3>
-                         <p style="color: black">Implementing the Vanilla GAN as well as the Triple GAN, on the MNIST and CIFAR-10 datasets respectively.</p>
-                         <a href="https://github.com/mahirjain25/Generative-Adversarial-Networks"><i class="fa fa-github" style="color:black"></i></a>
-                    </div>
-               </div>
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.6s">
-                         <h3 style="color:black">OnTrack</h3>
-                         <p style="color: black">Course Project - A Personal Assistant for College Students. Web Application developed using Django and MySQL. (Ongoing).</p>
-                         <a href="https://github.com/mahirjain25/OnTrack"><i class="fa fa-github" style="color:black"></i></a>
-                    </div>
-               </div>
-
-               <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="wow fadeInUp service-thumb" data-wow-delay="1.8s">
-                         <h3 style="color:black">Conference Publication - ICICI 2018</h3>
-                         <p style = "color: black">'A Systematic Mapping Study of Content-Based Filtering Recommender Systems' accepted at the ICICI Conference, Aug 7-8, 2018, Coimbatore.(SpringerLink Publication)</strong></p>
-                         <p><a style = "color: blue" href="https://link.springer.com/chapter/10.1007/978-3-030-03146-6_30">See Publication Here</a></p>
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
-
-
-<!-- Contact Section -->
-
-<section id="contact" class="parallax-section">
-     <div class="container">
-          <div class="row">
-               <div class="bg-dark col-md-6 col-sm-12">
-                    <div class="contact-thumb">
-                         <div class="wow fadeInUp contact-info" data-wow-delay="0.4s">
-                              <h2 class="color-white">Get In Touch</h2>
-                              <h3 class="color-white">You can reach out to me via the following platforms.</h3>
-                              <h3 class="color-white">This website is still a work in progress, and your feedback will definitely help improving it!</h3>
-                              <h3 class="color-white">I will soon roll out a form on the website for easier feedback!</h3>
-                              <h3><i class="fa fa-envelope-o" style="color:white"></i> <a href="mailto:mahirjain25@gmail.com">mahirjain25@gmail.com</a></h3>
-                              <h3><i class="fa fa-github" style="color:white"></i> <a href="​https://github.com/mahirjain25">mahirjain25</a></h3>
-                              <h3><i class="fa fa-linkedin" style="color:white"></i> <a href="https://www.linkedin.com/in/mahir-jain-269100144/">Mahir Jain</a></h3>
-                         </div>
-                    </div>
-               </div>
-
-               <div class="col-md-6 col-sm-12">
-                    <div class="background-image contact-img"></div>
-               </div>
-          </div>
-     </div>
-</section>
-
-
-<!-- Footer Section -->
-
-<footer>
-		<div class="row">
-               <div class="col-md-12 col-sm-12">
-                    <div class="wow fadeInUp footer-copyright" data-wow-delay="0.8s">
-                         <h3>2019. Mahir Jain.</h3>
-                    </div>
-               </div>
-			
-		</div>
-</footer>
-
-<!-- SCRIPTS -->
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Full Professional Proficiency</span>
+                                <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Native Proficiency</span>
+                                </li>
+                                <li class="item">
+                                    <span class="title"><strong>French:</strong></span>
+                                    <span class="level">Limited Working Proficiency</span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Mahir Jain, 2020</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
